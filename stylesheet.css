@@ -1,0 +1,194 @@
+*{
+  box-sizing:border-box;
+  text-decoration:none;
+  margin:0;
+	padding:0;
+}
+
+/*Bagian Intro*/
+.body {
+  max-width: 1200px;
+  margin:auto;
+}
+
+.intro {
+  padding-top:110px;
+  padding-bottom:100px;
+  text-align:center;
+  height:350px;
+  background-color:#f1f2f6;
+  background-image:url(unsplash_researchandmeeting.jpg);
+  background-size:cover;
+  filter:grayscale(65%);
+}
+
+.intro h1, h3 {
+  font-family: Poppins, sans-serif;
+  letter-spacing: 5px;
+  color:#ffffff;
+}
+
+h3{
+  font-size:14px;
+
+}
+
+p {
+  font-family: Roboto, sans-serif;
+  font-size:15px;
+}
+
+.intro h1{
+  color:##ffffff;
+}
+
+.work {
+  float:left;
+  width:25%;
+}
+
+.workflows {
+  text-align:center;
+  padding-top:100px;
+  background-color:#f1f2f6;
+}
+
+/* Membuat img abstract black and white kalo di hover*/
+.abstract {
+  border-radius:50%;
+  filter:grayscale(100%);
+  cursor:pointer;
+  transition:500ms;
+  margin-bottom:20px;
+}
+
+.abstract:hover {
+  border-radius:0%;
+  filter:grayscale(0);
+}
+
+.text-contents {
+  display:inline-block;
+  margin-top:0px;
+  font-size:14px;
+
+}
+
+.text-contents1:hover{
+  color:#E0719E;
+}
+
+.text-contents2:hover{
+  color:#F6E049;
+}
+
+.text-contents3:hover{
+  color:#7FD6C2;
+}
+
+.text-contents4:hover{
+  color:#EEBED3;
+}
+
+h4 {
+  font-family: Poppins, sans-serif;
+  color:#8A3E07;
+  font-size:20px;
+  margin-bottom:10px;
+}
+
+/*Bagian extraextra-wrapper*/
+.extraextra-wrapper {
+  text-align:center;
+  padding-bottom:150px;
+  background-color:#f1f2f6;
+}
+
+/* Bagian animasi 3d button di-klik */
+
+.btn {
+  font-family:Yanone Kaffeesatz, sans-serif;
+  color:#3d3d3d;
+}
+
+.clickhereone {
+  background-color: #cd84f1;
+  border-radius: 10px;
+  cursor:pointer;
+  box-shadow: 0 10px #c56cf0;
+  padding:20px 20px;
+}
+
+.clickhereone:active {
+  position:relative;
+  top:10px;
+  box-shadow:none;
+
+}
+
+.clickheretwo {
+  background-color: #ffcccc;
+  border-radius: 10px;
+  cursor:pointer;
+  box-shadow: 0 10px #ffb8b8;
+  padding:20px 20px;
+}
+
+.clickheretwo:active {
+  position:relative;
+  top:10px;
+  box-shadow:none;
+
+}
+
+/*Merapihkan Margin dsb bagian extraextra-wrapper*/
+.team {
+  color:#c56cf0;
+}
+
+.business {
+  color: #ffb8b8;
+}
+
+.illust2 {
+  margin-top:85px;
+  margin-bottom:20px;
+}
+
+.illust1 {
+  padding-top:130px;
+  margin-bottom:20px;
+}
+
+.extraextra-wrapper btn {
+  display:inline-block;
+
+}
+
+h2 {
+  font-family: Poppins, sans-serif;
+  margin-bottom:35px;
+  margin-top:0px;
+  color:#8A3E07;
+  --animate-duration: 3s;
+}
+
+/*Men-grayscale kan img illust*/
+.illust1 {
+  filter:grayscale(100%);
+  cursor:pointer;
+  transition:500ms;
+}
+
+.illust1:hover {
+  filter:grayscale(0);
+}
+.illust2 {
+  filter:grayscale(100%);
+  cursor:pointer;
+  transition:500ms;
+}
+
+.illust2:hover {
+  filter:grayscale(0);
+}
